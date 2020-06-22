@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #fff;
+}
+
+header, .main, footer{
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+header nav {
+	background: #000;
+	overflow: hidden;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	background: #8433FF;
+}
+
+.main .articles {
+	width: 64.5%;
+	margin-right: 2%;
+	float: left;
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #e6e6e6;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 33.5%;
+	background: #8433FF;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+footer {
+	background: #000000;
+	color: #e6e6e6;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
